@@ -16,12 +16,12 @@ To run the provided code, the following software is required:
 This repository contains:  
 - **`Control_System_Tiri-Rovighi_Report`**: A detailed document explaining the entire project.  
 - **`videos` folder**: Contains videos showcasing the toy car performing the described functions.  
-- **`Scripts` folder**: Contains the `.m` and `.slx` files necessary to run the project on MATLAB and Simulink.  
+- **`Scripts` folder**: Contains the `.slx` file which is the complete Simulink model, as long as the `.ioc` file produced by the STM ide for the microcontroller's pins specifications.   
 
 ## Workflow
 To successfully run the simulations, follow these steps:  
 1. Connect the car to your PC via USB.  
-2. Use **STM32CubeIDE** to generate a **C++ file** for mapping the microcontroller's pins.  
+2. Use **STM32CubeIDE** to generate a **.ioc file** for mapping the microcontroller's pins.  
 3. Run the `model_main_v10.slx` file in **Simulink** with the option **Build, Deploy and Start**.  
 
 ## Disputes
